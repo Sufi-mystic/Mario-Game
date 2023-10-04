@@ -47,7 +47,7 @@ function setup() {
   bricksGroup = new Group();
 
   mario.setCollider("circle", 0, 0, 18);
-  mario.debug = true;
+  //mario.debug = true;
 
   restart = createSprite(300, 250);
   restart.addImage(restartImg);
